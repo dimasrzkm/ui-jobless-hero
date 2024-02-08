@@ -66,3 +66,40 @@ body {
 }
 .button-sign-up:hover { cursor: pointer; }
 /* End Header Section */
+/* Hero Section */
+.hero-section {
+  width: 600px;
+  margin: 135px auto 126px;
+  text-align: center;
+}
+.hero-title {
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.hero-description { 
+  width: 55ch;
+  margin: 15px auto 0px;
+  color: var(--secondary-color);
+}
+.hero-action {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.button-hero {
+  color: #ffffff;
+  font-weight: 600;
+  background-color: blue;
+  padding: 12px 17px;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0px 15px 30px 0 rgba(0, 26, 255, 0.2);
+  letter-spacing: 0.2px;
+}
+.hero-qna {
+  text-decoration: underline;
+  font-weight: 600;
+}
+/* End Hero Section */
